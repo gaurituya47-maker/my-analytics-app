@@ -45,7 +45,6 @@ df = generate_writer_data()
 
 # --- ส่วนติดต่อผู้ใช้ (UI) ---
 st.title("✍️ Writer Backend Analytics: ReadAWrite & Meb")
-st.markdown("ระบบวิเคราะห์สถิตินามปากกาจำลองเพื่อการวางแผนคอนเทนต์")
 
 # Sidebar Filter
 author_choice = st.sidebar.selectbox("เลือกนามปากกา", ["ทั้งหมด", "minichiko", "เหมยลี่ฟาง"])
